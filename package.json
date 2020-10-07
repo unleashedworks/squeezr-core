@@ -1,6 +1,6 @@
 {
   "name": "squeezr-core",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ETS exam data parser, open core.",
   "main": "src/index.js",
   "repository": "unleashedworks/squeezr-core",
@@ -8,11 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "@prantlf/jsonlint": "^10.2.0",
-    "chokidar": "^3.3.1",
-    "html-to-text": "^5.1.1",
-    "say": "^0.16.0",
-    "strip-bom": "^4.0.0",
-    "yargs": "^15.1.0"
+    "html-to-text": "^5.1.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
