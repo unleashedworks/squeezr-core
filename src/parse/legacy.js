@@ -2,8 +2,8 @@
  * 易听说 `content.json` 解析器。
  * @param {Array} contents - 按照顺序包含序列化后的 `content.json`
  */
-module.exports = async function (content) {
-  return content.map(async problem => {
+module.exports = function (content) {
+  return content.map(problem => {
     switch (problem.structure_type) {
       case 'collector.read':
         return {

@@ -2,7 +2,7 @@
  * 易听说 `paper.Jason` 解析器。
  * @param {string} paper - 序列化后的 `paper.Jason`
  */
-module.exports = async function (paper) {
+module.exports = function (paper) {
   return paper.txlist.map(problem => {
     switch (problem.cjq_no /* 题目类型 */) {
       case 'collector.read':
