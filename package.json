@@ -1,6 +1,6 @@
 {
   "name": "squeezr-core",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "ETS exam data parser, open core.",
   "main": "src/index.js",
   "repository": "unleashedworks/squeezr-core",
